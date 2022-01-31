@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- TODO 배치 -->
     <!-- 상태바 -->
     <div id="status-bar">
         <div class="status-bar__column">
@@ -21,29 +20,29 @@
         </div>
         <div class="status-bar__column">
             <!-- TODO 가로모드 잠금 icon -->
-            <span>11%</span>
+            <span>78%</span>
             <i class="fas fa-battery-three-quarters fa-lg"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </div>
     <!-- welcome -->
     <div id="welcome-header">
-        <h1 id="welcome-header__title">Welcome to KokoaTalk</h1>
+        <p id="welcome-header__title">Welcome to KokoaTalk</h1>
         <p id="welcome-header__text">
             If you have a Kokoa Account, log in with your email or phone number.
         </p>
-        <!-- TODO 이거 두줄로 나오게 하려면? HOW!? -->
     </div>
     <!-- form -->
     <form id="login-form">
         <input type="text" required placeholder="Email or phone number">
         <input type="password" required placeholder="Password">
         <input type="submit" value="Log In">
-        <!-- <button>Log In</button> -->
+        <!-- <button>Log In</button> 도 가능 -->
         <button>Sign Up</button>
         <a href="https://www.kakaocorp.com/page/service/service/KakaoTalk" target="_blank">
             Find Kokoa Account or Password
         </a>
+        <!-- TODO input들 가로로 길게 -->
     </form>
 
     <script
