@@ -2,6 +2,7 @@
 #status-bar{
     display: flex;
     justify-content: center;
+    margin: 5px 6px;
 }
 
 /* justify-content: space-between; 로 하면 시간이 정중앙에 안오니까 하나하나 설정하기 */

@@ -1,5 +1,5 @@
 @import "reset.css";
-/* 처음부터 reset.css 적용하고 설정 시작하기. */
+/* reset.css 일단 적용하고 CSS 작성 시작하기. */
 @import "status-bar.css";
 
 body{
@@ -8,25 +8,23 @@ body{
 
 /* TODO welcome-header__text 두줄로 나오게 하려면? => 이 div size 설정*/
 #welcome-header{
-    display: flex;
+    margin: 70px 0px;
+    text-align: center;
+    /* h1, p같은 text tag들 가운데 정렬. 아래 코드 안써도 가능 */
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 300px;
+    align-items: center; */
 }
 
-/* TODO 가운데 정렬 */
-/* 왜때문에 적용 안되니 */
-#welcome-header p{
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-/* 왜때문에 적용 안되니 */
 #welcome-header__title{
-    display: flex;
-    margin: 10px 0px;
+    margin-bottom: 25px;
+    font-size: 23px;
+    font-weight: 500;
+}
 
+.welcome-header__text{
+    margin: 3px;
+    opacity: 70%;
 }
 
 #login-form{
