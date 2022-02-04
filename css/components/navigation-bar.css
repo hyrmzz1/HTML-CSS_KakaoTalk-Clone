@@ -1,0 +1,14 @@
+.nav-bar{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: var(--lightgray);
+}
+
+.nav-bar__list{     /* 왜 list에 작성해주는거지?? btn에 flex 적용하는거니까. */
+    display: flex;
+    justify-content: space-between;
+}
