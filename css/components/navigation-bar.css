@@ -12,3 +12,19 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav-bar__notification{
+    background-color: tomato;
+    color: white;
+    font-weight: 500;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    /* span은 inline. inline은 높이와 너비를 가지지 않으므로 block 또는 flex로 바꿔준다. */
+    border-radius: 11px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 33px;
+    left: 20px;
+}
