@@ -1,13 +1,15 @@
 @import "reset.css"; /* reset.css 일단 적용하고 CSS 작성 시작하기. */
 @import "variables.css";
 
-/* components */ /* 여러 page에 사용되는 css 분리. */
+/* components - 여러 page에 사용되는 것들 분리. */
 @import "components/status-bar.css";
 @import "components/navigation-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
-/* screens */
+/* screens - 해당 page에만 사용되는 것들 작성  */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body{
     height: 100vh;
