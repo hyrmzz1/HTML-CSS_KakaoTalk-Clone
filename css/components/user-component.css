@@ -1,0 +1,29 @@
+.user-component{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-component__column{
+    display: flex;
+    align-items: center;
+}
+
+.user-component__picture{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 23px;
+    margin-right: 15px;
+}
+
+.user-component__title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.user-component__subtitle{
+    font-size: 16px;
+    opacity: 0.5;
+    margin-top: 7px;
+}
