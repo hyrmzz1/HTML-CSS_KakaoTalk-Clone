@@ -12,3 +12,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav-bar__btn{
+    position: relative;
+}
+
+.nav-bar__btn .notification-sm{
+    position: absolute;
+    left: 28px;
+    bottom: 25px;
+}
