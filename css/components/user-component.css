@@ -1,5 +1,5 @@
 main{
-    padding-left: var(--horizontal-space);
+    padding: 0px var(--horizontal-space);
 }
 
 .user-component{
@@ -21,13 +21,40 @@ main{
     margin-right: 15px;
 }
 
+.user-component__picture--bg{
+    width: 75px;
+    height: 75px;
+    margin-right: 18px;
+    border-radius: 25px;
+}
+
+.user-component__picture--sm{
+    width: 55px;
+    height: 55px;
+    border-radius: 20px;
+}
+
 .user-component__title{
     font-size: 20px;
     font-weight: 600;
+}
+
+.user-component__title--sm{
+    font-weight: 400;
 }
 
 .user-component__subtitle{
     font-size: 16px;
     opacity: 0.5;
     margin-top: 7px;
+}
+
+.user-component__column:last-child{
+    opacity: 0.5;
+    display: flex;
+}
+
+
+.user-component__column:last-child span{
+    margin-right: 5px;
 }

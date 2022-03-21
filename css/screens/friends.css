@@ -13,3 +13,13 @@
     margin: 0px 7px;
     opacity: 0.2;
 }
+
+.friends-screen__channel--header{
+    margin-top: 20px;
+    height: 45px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.5;
+}
