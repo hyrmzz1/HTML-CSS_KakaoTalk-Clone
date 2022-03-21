@@ -1,0 +1,9 @@
+.screen-header__icons{
+    position: relative;
+}
+
+.screen-header__icons .notification-sm{
+    position: absolute;
+    left: 102px;
+    bottom: 25px;
+}
