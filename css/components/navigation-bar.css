@@ -6,6 +6,7 @@
     box-sizing: border-box;
     border-top: 1px solid rgba(0, 0, 0, 0.15);
     background-color: var(--lightgray);
+    height: 80px;
 }
 
 .nav-bar__list{     /* 왜 list에 작성해주는거지?? btn에 flex 적용하는거니까. */
@@ -13,12 +14,8 @@
     justify-content: space-between;
 }
 
-.nav-bar__btn{
-    position: relative;
-}
-
 .nav-bar__btn .notification-sm{
-    position: absolute;
-    left: 28px;
-    bottom: 25px;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
 }
