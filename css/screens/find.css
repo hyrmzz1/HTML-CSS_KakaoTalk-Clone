@@ -9,7 +9,7 @@
 }
 
 .find-icons{
-    height: 144px;
+    height: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,4 +25,23 @@
 
 .find-icons__icon span{
     margin-top: 20px;
+}
+
+.recommended-friends{
+    height: 280px;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    color: var(--gray);
+}
+.recommended-friends__title{
+    display: flex;
+    margin: 15px 0px;
+    font-weight: 600;
+}
+
+.recommended-friends__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
 }
