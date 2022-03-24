@@ -46,12 +46,12 @@
 
 .user-component__subtitle{
     font-size: 16px;
-    opacity: 0.5;
+    color: var(--gray);
     margin-top: 7px;
 }
 
 .user-component__channel{
-    opacity: 0.5;
+    color: var(--gray);
     display: flex;
 }
 
@@ -61,5 +61,5 @@
 
 .user-component__time{
     font-size: 14px;
-    opacity: 0.5;
+    color: var(--gray);
 }

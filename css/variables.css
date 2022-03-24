@@ -2,4 +2,6 @@
     --yellow: #FAE100;
     --lightgray: #FAFAFA;
     --horizontal-space: 20px;
+    --gray: rgba(0,0,0,0.5);
+    --border: rgba(0,0,0,0.2);
 }

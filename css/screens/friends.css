@@ -10,15 +10,15 @@
 /* <a class="friends-display-link"> 밑의 <i> */
 .friends-display-link i{
     margin: 0px 7px;
-    opacity: 0.2;
+    color: var(--border);
 }
 
 .friends-screen__channel--header{
     margin-top: 20px;
     height: 45px;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid var(--border);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    opacity: 0.5;
+    color: var(--gray);
 }
