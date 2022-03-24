@@ -53,3 +53,9 @@
     align-items: center;
     width: 25%;
 }
+
+.icon-row__icon .notification-sm{
+    position: relative;
+    left: 25px;
+    bottom: 70px;
+}
