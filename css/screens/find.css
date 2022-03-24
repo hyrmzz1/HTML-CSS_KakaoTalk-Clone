@@ -1,0 +1,28 @@
+.screen-header__icons{
+    position: relative;
+}
+
+.notification-sm{
+    position: absolute;
+    left: 102px;
+    bottom: 25px;
+}
+
+.find-icons{
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%
+}
+
+.find-icons__icon span{
+    margin-top: 20px;
+}
