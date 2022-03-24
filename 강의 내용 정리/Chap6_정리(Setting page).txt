@@ -1,0 +1,16 @@
+1:1 chat screen과 같은 header를 가졌음
+=> alt-screen-header 컴포넌트 생성.
+
+상태바와 유사한 형태로 생겼다
+
+header.alt-header>div.alt-header__column*3 단축키!
+
+margin-right: auto; margin-left: auto; 를 첫번쨰, 마지막 column에 각각 주면 두번째 칼럼 가운데에 오게 된다.
+-----------------------------------------------
+내부 -> list !!
+<ul><li> 생성하자.
+하나의 li는 두개의 column으로 이루어져 있어야 한다.
+
+내부 목록들 main 안에 작성하면 동일한 padding 값 얻을 수 있다.
+-----------------------------------------------
+< 버튼 누르면 more.html로 돌아갈 수 있도록 a href="" 걸어주기
