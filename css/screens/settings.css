@@ -1,0 +1,46 @@
+.settings-setting{
+    height: 50px;
+    margin-top: 20px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-list{
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+}
+
+.settings-setting__column i{
+    margin-right: 18px;
+    opacity: 0.8;
+}
+
+.settings-setting__column span{
+    font-size: 18px;
+}
+
+.settings-setting__column:last-child span{
+    color: var(--gray);
+}
+
+.settings-setting__column{
+    display: flex;
+}
+
+.settings-setting__new{
+    font-size: 3px;
+    background-color: tomato;
+    color: white;
+    font-weight: 500;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+}
