@@ -1,0 +1,84 @@
+.chat-body{
+    background-color: #ABC1D1 ;
+    /* z-index: 1;
+    왜 안되니.. */
+}
+
+.chat-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-timestamp{
+    margin: 20px 0px;
+    color: white;
+    background-color: #92A4B2;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.message-row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.message-info{
+    padding-top: 3px;
+    position: relative;
+    right: 5px;
+}
+.message-row__column{
+    display: flex;
+    height: 70px;
+}
+
+.message-row__column--me{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-bottom: 20px; */
+}
+
+.message-row__column--me .message-content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.message-content{
+    margin-top: 10px;
+}
+
+.message-row__column .message__bubble{
+    background-color: white;
+    padding: 8px;
+    border-radius: 0px 20px 20px 20px;
+    position: relative;
+    top: 5px;
+}
+
+.message-row__column--me .message__bubble{
+    background-color: var(--yellow);
+    padding: 8px;
+    border-radius: 20px 0px 20px 20px;
+    margin-left: 5px;
+}
+
+.message__sender, .message__time{
+    color: var(--gray);
+}
+
+.message__time{
+    font-size: 12px;
+}
+
+.message-row__column .message__time{
+    position: relative;
+    top: 14px;
+}
+
+.message-row__column--me .message__time{
+    position: relative;
+    top: 17px;
+}
