@@ -82,3 +82,60 @@
     position: relative;
     top: 22px;
 }
+
+.reply{    
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: var(--lightgray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reply__column{
+    display: flex;
+    justify-content: center;
+}
+
+.reply__column:first-child{
+    width: 10%;
+}
+
+.reply__column:last-child{
+    width: 90%;
+    padding-right: 10px;
+    position: relative;
+}
+
+.reply__column input{
+    border-radius: 30px;
+    /* border-color: var(--gray); */
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+}
+
+.reply__column>i{
+    color: var(--gray);
+}
+
+.reply__column button{
+    border-radius: 50%;
+    border-style: 0px solid var(--yellow);
+    background-color: var(--yellow);
+}
+
+.reply__column:last-child>i{
+    position: absolute;
+    right: 55px;
+    top: 10px;
+}
+
+.reply__column:last-child button{
+    position: absolute;
+    right: 14px;
+    top: 4px;
+}
