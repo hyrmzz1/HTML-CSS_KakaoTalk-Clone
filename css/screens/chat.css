@@ -60,7 +60,7 @@
 
 .message-row__column--me .message__bubble{
     background-color: var(--yellow);
-    padding: 8px;
+    padding: 10px;
     border-radius: 20px 0px 20px 20px;
     margin-left: 5px;
 }
@@ -80,5 +80,5 @@
 
 .message-row__column--me .message__time{
     position: relative;
-    top: 17px;
+    top: 22px;
 }
