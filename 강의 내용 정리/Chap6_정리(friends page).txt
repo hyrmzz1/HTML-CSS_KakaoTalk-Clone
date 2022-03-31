@@ -1,0 +1,52 @@
+처음부터 만들 필요는 없다!
+login.html 복붙하고, 필요없는 부분 지우면 됨 => status-bar 남기기
+-------------------------------------------------------
+navigation bar
+
+<nav><ul><li>
+네개 만드려면 ? nav>ul>li*4>a 
+
+navigation이란? 검색했을 때 링크 밑에 뜨는 부가링크(?) -> 구글에 CNN 검색해봐
+부가 링크 통해서 아래 friends-chats-search-ellipsis 아이콘 넣어주기. 그리고 링크 통해 해당 html 페이지로 이동!
+모든 link는 default color가 blue! 따라서 color 바꿔주기. (여기서는 아이콘이 링크다.)
+
+nav-bar.css 는 여러 페이지에 쓰이니까 components 폴더에 만들고, style.css 파일에 import 필수!!
+
+nav-bar는 항상 화면 하단에 박아져있음. -> 원하는 곳에 계속 있게 하려면?	+) status-bar도 상단에 박기.
+position: fixed;
+bottom: 0;
+width: 100%
+box-sizing: border-box;	// padding을 늘려도 box사이즈를 늘리지 말아줘 라는 뜻. 원래는 padding늘리면 그만큼 box 사이즈 늘어남.
+-------------------------------------------------------
+chat icon에 빨간 ① 넣으려면??	// <span class = "nav__notification">1</span>
+동그라미 -> border-radius: 15px;
+
+chat icon과 ① 겹치게 하려면??
+position: absolute;	// 쓰기 위한 조건: 얘를 감싸고 있는 container에 position: relative; 써주기
+
++)ellipsis에도 빨간 동그라미 넣어주기.
+-------------------------------------------------------
+Screen header	// 문구나 아이콘은 다르지만 4페이지에 사용 가능=>components 폴더에 css 만들기
+<header class="screen-header">
+	<h1 class="screen-header__title">Friends</h1>
+	<span class="screen-header__icon"></span>	//span*3
+
+//왜 아이콘을 span에 넣는거지?
+-------------------------------------------------------
+user-component	//components. photo-name-subtitle
+
+photo name => column 하나, 우측=> column 하나
+
+<div class="user-component"> 안에 .user-component__column*2 하면 저 class명 가진 div 두개 만들어짐.
+첫번째 .user-component__column => 프사+이름
+두번쨰 .user-component__column => 오른쪽 표시(암것도 없을수도 있)
+
+프사와 이름 가로정렬 => display: flex; align-items: center;
+이름과 상메는 하나의 div에 두기.
+
+프사 사이즈 -> big, middle, small 필요.
+우선 middle 만들고 big, small은 각 페이지에서 재설정.
+ .user-component__avatar--xl 만들어준다.	// 이것은 변형~
+------------------------------------------------------- 
+<main class="friends-screen"> 만들고 이 안에 모든 코드 넣어! 글고 이 main 태그에 대체 padding 주기~!
+-------------------------------------------------------

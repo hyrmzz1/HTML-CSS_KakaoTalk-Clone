@@ -1,0 +1,16 @@
+#6.19 - #6.20 chats screen
+
+nav--btn에 링크 걸어주기.
+
+title 바꾸고 + 아이콘 꽉차게 바꾸고 + friends 창 아이콘은 비게.(테두리는 O)
+
+Chats 창의 header 아이콘 수정. 
+friends 창에 있는 것들 중 안쓰는거 삭제 및 수정.
+
+component랑 screens 폴더에 css 두니까 수정하기에 편함.
+
+각 페이지에만 적용되는건 해당페이지.css 에서 다루자.
+
+① 이건 미리 component로 만들어두기 !!!
+
+클래스 사용할 때 두개면? class="a b" 일케 띄어쓰기 하면 된다.

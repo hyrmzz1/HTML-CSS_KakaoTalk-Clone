@@ -1,0 +1,41 @@
+Find Screen
+
+상태바/네비게이션바/스크린헤더 재사용.
+
+main 은 계속 사용해야해! (var(--horizontal space) 때문에)
+---------------------------------
+find-icons div 만들고, find-icons__icon div 4개 필요.
+
+find.css 만들어야겠지
+
+각 아이콘들에 flex 적용, 정렬.
+
+아이콘 크기 키울 때 font-size 속성 사용 가능!!
+ex) .find-icons__icon i {
+	font-size: 35px
+}
+---------------------------------
+border가 많이 쓰이는 걸 볼 수 있다. => 변수로 만들기.
+글고 border: var(--main-border);
+
+회색도 많이 쓰인다 => 변수로 만들기.
+---------------------------------
+recommended-friends part
+
+span 이 한가운데에 있는건 margin을 개많이 줘서...^^
+---------------------------------
+open chat part
+<div class="open-chat">
+	<div class="open-chat__header"> //span과 링크 아이콘
+	<div class="open-post"> //open-post__column 2개 필요.
+---------------------------------
+open-post__column 하나엔 open-post__title, open-post__hashtags, open-post__members 있어야 하고
+open-post__members 안엔 img, open-post__member-count, divider, open-post__member-status 있어야 함.
+
+divider=> width:1px; height: 10px; background-color:~~; 주면 생긴다 !!!!! 신기해
+---------------------------------
+또다른 open-post__column 에는 사진이랑 open-post__like 주기.
+사진 위에 open-post__like가 오게 하려면? 
+=> 부모 태그에 position: relative; 주고 open-post__like엔 position:absolute; 주기. 
++) position은 top/bottom/left/right로 위치 조절 가능
+
