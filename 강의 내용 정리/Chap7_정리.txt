@@ -1,0 +1,21 @@
+#7. Publishing our website
+
+1) branch
+특정 위치부터 파생된 버전을 만들게 해주는 것!!
+-> github desktop에서 만들고, 그 브랜치에서 커밋해주면 된다.
+
+파생된 branch(나뭇가지)는 다시 특정 위치에서 다시 main branch로 합쳐지게 할 수 있음.
+-> master branch로 돌아와서 상단바의 Branch-merge into main
+
+2) Publishing on Github pages
+무료 호스팅 (URL을 만들어 주다니!!!!!!!!!!)
+=> 필수 조건: branch 있어야 함.
+
+branch name: gh-pages (무조건 이거여야 함) 로 만들고 publish branch!
+
+3) Updating Github pages
+일단 master branch에서 변경사항 커밋하고 
+gh-pages로 이동해서 Branch-Update from master 클릭하고 publish하기! (push 버튼)
+이걸 해줘야 위에서 호스팅한 사이트에도 적용이 된다.
+
+4) Conclusion
