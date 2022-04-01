@@ -1,0 +1,56 @@
+#6.34-35 splash screen
+
+화면을 가장 위 layer로 올리면 새 창 같아진다.
+=>position: absolute; top: 0; 높이: 100vh;
+
+아이콘은 css에서 font-size 속성 통해 사이즈 조절 가능.
+
+이 화면을 없애려면? 애니메이션 사용.
+@Keyframes 애니메이션이름
+from{ 
+	opacity: 1;
+}
+
+to{
+	opacity: 0;
+} => 투명하지만 display에 남아있는 상태. => 이 화면때매 클릭 안됨 => visibility: hidden;
+
+css에 animation: 애니메이션이름 1s ease-in-out forwards;
+해주기. forwards 하면 애니메이션 to 상태 계속 유지된다. (애니메이션의 마지막 값(keyframe. to. or 100%) 기억)
+--------------------------------------------------------------
+#6.36~37
+생성할 animation
+: nav-bar chat icon 위에 ① 흔들~ / 설정 아이콘 / more screen 에서 like 아이콘에 색상 들어가게
+
+- more screen 에서 like 아이콘에 색상 들어가게
+=> scale 조정시 사이즈에 따라 원래 있던거 요상하게 틀어질 수 있음
+=> will-change 속성 사용. 애니메이션을 사용함으로서 이상 생길 때 브라우저에게 어떤 것이 변화할 것인지 예고.
+=> will-change는 그래픽 카드를 이용해서 애니메이션을 가속화한다.
+ex) will-change: transform;
+
+hover 속성도 이용해서 애니메이션 적용해보자. 멋도릐~
+--------------------------------------------------------------
+#6.38
+~~:focus-within
+:해당 element 안에 focus 된 거 있는지 보는 속성. 된 거 있으면 거기에 아래 작성된 속성 발생시킴!
+
+이 강의에 있는 애니메이션은 꼭 다+@ 써보기!!!!!!!!!! 어렵고 신기방기 개쩜
+--------------------------------------------------------------
+#6.40
+mobile 만 들어올 수 있도록 만들자! -> moblie ver로 아예 지정시키기.
+<div id="no-mobile">	//css는 component로 만들기
+	<span></span>	//화면 표시 X 문구 넣기
+</div>	
+
+css => splash screen처럼.
+#no-mobile{
+	position: absolute;
+	z-index: 99;
+	높이/너비/배경색상/폰트/정렬 설정
+}
+
+@media screen and (max-width: 645px){	//모바일 가로 사이즈를 max로
+	#no-mobile{
+		display: none;
+	}
+}
