@@ -9,6 +9,7 @@
 @import "components/notification-badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* screens - 해당 page에만 사용되는 것들 작성  */
 @import "screens/login.css";
