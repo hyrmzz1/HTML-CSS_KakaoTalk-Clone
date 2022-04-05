@@ -18,4 +18,24 @@
 
 .screen-header__icons i{
     margin-left: 30px;
+    font-size: 20px;
+}
+
+@keyframes rotateCogIcon {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(1.5) rotateZ(180deg);
+              transform: scale(1.5) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  
+.screen-header .fa-cog:hover{
+    animation: rotateCogIcon 1s ease-in-out;
 }
