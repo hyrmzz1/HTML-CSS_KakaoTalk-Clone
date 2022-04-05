@@ -14,6 +14,34 @@
     left: 20px;
 }
 
+@keyframes slideChatsNoti {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    25%{
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+         -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    75%{
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    100% {
+         -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+  }
+
+  
+.chats-screen__chat-btn>span{
+    animation: slideChatsNoti 1.5s ease-in-out;
+}
+
 .user-component__notification{
     background-color: tomato;
     color: white;
