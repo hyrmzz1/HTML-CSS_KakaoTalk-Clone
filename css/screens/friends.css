@@ -33,6 +33,7 @@
     100%{
         opacity: 0;
         visibility: hidden;
+        /* 이거 있어야 화면상에서 splash-screen 숨겨져서 다른거 클릭 가능 */
     }
 }
 
