@@ -96,3 +96,30 @@
 .open-post__member-status{
     color: rgb(255, 81, 202);
 }
+
+.open-chat__img{
+    position: relative;
+}
+
+.open-chat__like{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 4px;
+    left: 36px;
+}
+
+.open-chat__like>i{
+    margin-right: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+.open-chat__like>span{
+    color: white;
+    font-size: 12px;
+}

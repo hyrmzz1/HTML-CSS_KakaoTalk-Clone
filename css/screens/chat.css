@@ -40,6 +40,7 @@
     position: relative;
     right: 5px;
 }
+
 .message-row__column{
     display: flex;
     height: 70px;
